@@ -1,0 +1,31 @@
+/* for vertical nav bar */
+ul{
+    list-style-type: none;
+    background-color:cadetblue;
+    width: 150px;
+    margin: 20px;
+    border: solid;
+    padding: 10px;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li a:hover{
+    background-color: orange;
+    color: white;
+}
+/* for horizontal nav bar */
+nav{
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    color: blue;
+    border: 1px solid black;
+}
+div a:hover{
+    background-color: rgb(125, 123, 123);
+    color: white;
+}
