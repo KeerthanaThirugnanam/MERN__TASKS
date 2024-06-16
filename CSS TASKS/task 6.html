@@ -17,16 +17,19 @@
             box-sizing: border-box;
             width: 100%;
         }
-        button:hover{
-            color-o;
+        label{
+            margin-left: 10px;
         }
         input[type=text], input[type=password] {
             width: 100%;
-            padding: 12px 10px;
-            margin: 8px 0;
+            padding: 10px;
+            margin: 10px 0;
             display: inline-block;
             border: 1px solid #ccc;
             box-sizing: border-box;
+        }
+        input[type=checkbox]{
+            margin: 10px;
         }
         .image{
             text-align: center;
@@ -34,6 +37,7 @@
         span{
             display: block;
             float:right;
+            margin-right: 10px;
         }
         
     </style>
@@ -50,9 +54,9 @@
             <img src="login image.jpg" alt="loginImage" class="image">
         </div>
         <div>
-            <label for="un"><b>Username</b></label>
+            <label ><b>Username</b></label>
             <input type="text" placeholder="Enter Username" required>
-            <label for="pass"><b>Password</b></label>
+            <label ><b>Password</b></label>
             <input type="password" placeholder="Enter password" required>
             <button type="submit" class="btn btn-success">Login</button>
             <input type="checkbox" >Remember me
